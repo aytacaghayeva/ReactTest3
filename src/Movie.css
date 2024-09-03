@@ -1,0 +1,72 @@
+.cardMovie img {
+    height: 400px;
+    width: 350px;
+}
+.movie1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.cardMovie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+.bottomPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(60, 101, 173, 0.781);
+    width: 100%;
+    padding: 20px;
+}
+.cardMovie:hover{
+    background-color: lightblue;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.movie1-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.movie1-desc {
+    font-weight: bold;
+    font-size: 20px;
+    color: mediumturquoise;
+    text-align: center;
+}
+.cardMovie button{
+    padding-block: 5px;
+    padding-inline: 10px;
+    background-color: aqua;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.handleBtn:hover{
+    transition: 0.5s;
+    background-color: blue;
+    color: aqua;
+    border: 2px solid aqua;
+}
+.likeButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.handleBtn{
+    margin-right: 5px;
+    
+}

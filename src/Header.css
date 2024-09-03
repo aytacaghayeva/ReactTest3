@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background-color: rgb(75, 113, 183);
+    padding: 30px;
+}
+.disney{
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    color:white ;
+    text-align: center;
+}
+.about{
+    margin-inline: 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.logo p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header-about{
+    padding-inline: 20px;
+}
