@@ -1,14 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .detail {
     display: flex;
     align-items: center;
+    justify-content: center;
+    background: url(./assests/p5dy6dkctc221.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-    background: url(./p5dy6dkctc221.webp);
 }
 
 .movie-details {
     margin-left: 50px;
     width: 450px;
-    height: 800px;
     border: 1px solid gray;
     display: flex;
     flex-direction: column;

@@ -2,9 +2,9 @@ import './App.css';
 import Home from "./Home";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MovieDetails from './MovieDetails';
-import Movie1 from './movie1.jpeg';
-import Movie2 from './movie2.jpg';
-import Movie3 from './movie3.jpg';
+import Movie1 from "./assests/movie1.jpeg";
+import Movie2 from './assests/movie2.jpg';
+import Movie3 from "./assests/movie3.jpg";
 
 function App() {
 

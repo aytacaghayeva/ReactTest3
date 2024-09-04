@@ -1,5 +1,5 @@
 .home {
-    background: url(./backdisney.avif);
+    background: url(./assests/p5dy6dkctc221.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,10 +13,11 @@
 }
 
 .home-input {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 80px);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: center;
 }
 .buttonfilter {
     padding: 5px 10px;

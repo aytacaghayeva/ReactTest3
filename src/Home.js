@@ -3,9 +3,9 @@ import "./Home.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import Movie from "./Movie";
-import Movie1 from "./movie1.jpeg";
-import Movie2 from "./movie2.jpg";
-import Movie3 from "./movie3.jpg";
+import Movie1 from "./assests/movie1.jpeg";
+import Movie2 from './assests/movie2.jpg';
+import Movie3 from "./assests/movie3.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -87,6 +87,7 @@ function Home() {
                                     handleLike={() => handleLike(item.id)}
                                 />
                             </Link>
+                            
                         ))
                 }
             </div>
